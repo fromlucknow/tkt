@@ -1,0 +1,6 @@
+framework module Pods_Taron_ki_Toli_Taron_ki_ToliUITests {
+  umbrella header "Pods-Taron ki Toli-Taron ki ToliUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.0)
+  - SwiftRangeSlider (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftRangeSlider (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftRangeSlider
+
+SPEC CHECKSUMS:
+  Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  SwiftRangeSlider: f86e3b637c961120158fa1a89277c8343845cbe4
+
+PODFILE CHECKSUM: d066e816234545b257612e59a2b4c29f6f4f0c85
+
+COCOAPODS: 1.10.1

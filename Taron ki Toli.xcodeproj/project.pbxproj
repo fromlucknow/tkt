@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56247A5D187EB19C715925B3 /* Pods_Taron_ki_Toli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D742959BD75946DD7FE9464 /* Pods_Taron_ki_Toli.framework */; };
+		B00797CE288E79990008B2EC /* Activity1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00797CD288E79990008B2EC /* Activity1ViewController.swift */; };
+		B00797D3288FCEC80008B2EC /* KyaKarnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00797D2288FCEC80008B2EC /* KyaKarnaViewController.swift */; };
+		B00797D8288FD3100008B2EC /* Act12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00797D7288FD3100008B2EC /* Act12ViewController.swift */; };
+		B00797DD288FD3DA0008B2EC /* Act13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00797DC288FD3DA0008B2EC /* Act13ViewController.swift */; };
+		B00797EE288FED230008B2EC /* Karo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00797ED288FED230008B2EC /* Karo2ViewController.swift */; };
+		B01D4BEE286F0FC700C539B0 /* Mukta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05BA50B28362D4600D08CCD /* Mukta-Bold.ttf */; };
+		B01D4BEF286F0FC700C539B0 /* Mukta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05BA50928362D4600D08CCD /* Mukta-Medium.ttf */; };
+		B01D4BF0286F0FC700C539B0 /* Mukta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05BA50A28362D4600D08CCD /* Mukta-Regular.ttf */; };
+		B01D4BF1286F0FC700C539B0 /* Mukta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05BA50D28362D4600D08CCD /* Mukta-SemiBold.ttf */; };
+		B02E1150287562D100675638 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E114F287562D100675638 /* LoginModel.swift */; };
+		B02E1155287562DD00675638 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E1154287562DD00675638 /* Login.swift */; };
+		B02E115A28758DE900675638 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02E115928758DE900675638 /* Dashboard.storyboard */; };
+		B02E116028759CF300675638 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E115F28759CF300675638 /* DashboardViewController.swift */; };
+		B02EB5382872F4EA0027764E /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EB5372872F4EA0027764E /* NewPasswordViewController.swift */; };
+		B02EB53E287430340027764E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EB53D287430330027764E /* LoginViewController.swift */; };
+		B02EB546287430400027764E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EB545287430400027764E /* ForgotPasswordViewController.swift */; };
+		B02EB54B2874304A0027764E /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EB54A2874304A0027764E /* UsernameViewController.swift */; };
+		B02EB550287430650027764E /* EnterUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EB54F287430650027764E /* EnterUsernameViewController.swift */; };
+		B044A17B28858E1F00E3295D /* Karo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B044A17A28858E1E00E3295D /* Karo1ViewController.swift */; };
+		B0452503288024560013E177 /* Menu3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0452501288024560013E177 /* Menu3TableViewCell.swift */; };
+		B0452504288024560013E177 /* Menu3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0452502288024560013E177 /* Menu3TableViewCell.xib */; };
+		B045250A288025140013E177 /* Karo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0452509288025140013E177 /* Karo.storyboard */; };
+		B04525112881872D0013E177 /* KaroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045250F2881872D0013E177 /* KaroCollectionViewCell.swift */; };
+		B04525122881872D0013E177 /* KaroCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B04525102881872D0013E177 /* KaroCollectionViewCell.xib */; };
+		B04525172881BE2C0013E177 /* KaroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04525162881BE2C0013E177 /* KaroViewController.swift */; };
+		B04D128528646F57002499C0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D128428646F57002499C0 /* NotificationViewController.swift */; };
+		B05B6C122886BEFC00FA4B88 /* SamajhBadhanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B6C112886BEFC00FA4B88 /* SamajhBadhanaViewController.swift */; };
+		B05B6C172886F66100FA4B88 /* GyanBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B6C162886F66100FA4B88 /* GyanBoxViewController.swift */; };
+		B05BA47C283500BF00D08CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA47B283500BF00D08CCD /* AppDelegate.swift */; };
+		B05BA47E283500BF00D08CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA47D283500BF00D08CCD /* SceneDelegate.swift */; };
+		B05BA480283500BF00D08CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA47F283500BF00D08CCD /* ViewController.swift */; };
+		B05BA483283500BF00D08CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05BA481283500BF00D08CCD /* Main.storyboard */; };
+		B05BA485283500C300D08CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05BA484283500C300D08CCD /* Assets.xcassets */; };
+		B05BA488283500C300D08CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05BA486283500C300D08CCD /* LaunchScreen.storyboard */; };
+		B05BA493283500C400D08CCD /* Taron_ki_ToliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA492283500C400D08CCD /* Taron_ki_ToliTests.swift */; };
+		B05BA49E283500C400D08CCD /* Taron_ki_ToliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA49D283500C400D08CCD /* Taron_ki_ToliUITests.swift */; };
+		B05BA4B628351FB200D08CCD /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4AF28351FB200D08CCD /* CommonButton.swift */; };
+		B05BA4B728351FB200D08CCD /* Designabletextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B028351FB200D08CCD /* Designabletextfield.swift */; };
+		B05BA4B828351FB200D08CCD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B128351FB200D08CCD /* Reachability.swift */; };
+		B05BA4B928351FB200D08CCD /* CommonTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B228351FB200D08CCD /* CommonTextfield.swift */; };
+		B05BA4BA28351FB200D08CCD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B328351FB200D08CCD /* DesignableView.swift */; };
+		B05BA4BB28351FB200D08CCD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B428351FB200D08CCD /* Alert.swift */; };
+		B05BA4BC28351FB200D08CCD /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4B528351FB200D08CCD /* DesignableButton.swift */; };
+		B05BA4C128360F2600D08CCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4C028360F2600D08CCD /* Extensions.swift */; };
+		B05BA4E528361F8600D08CCD /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA4E328361F8600D08CCD /* TopHeader.swift */; };
+		B05BA4E628361F8600D08CCD /* TopHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B05BA4E428361F8600D08CCD /* TopHeader.xib */; };
+		B05BA513283656C200D08CCD /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B05BA512283656C200D08CCD /* 123.jpg */; };
+		B05BA52028367A8400D08CCD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05BA51F28367A8400D08CCD /* SignUpViewController.swift */; };
+		B0648A54285765D900CC169E /* StarGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A53285765D900CC169E /* StarGameViewController.swift */; };
+		B0648A592857661700CC169E /* GeneralStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A582857661700CC169E /* GeneralStartViewController.swift */; };
+		B0648A5E28577C1B00CC169E /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A5D28577C1B00CC169E /* PointsViewController.swift */; };
+		B0648A64285880E500CC169E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A63285880E500CC169E /* ApiManager.swift */; };
+		B0648A6A28588C3900CC169E /* Otp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A6928588C3900CC169E /* Otp.swift */; };
+		B0648A7028588DEA00CC169E /* OtpModel  .swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A6F28588DEA00CC169E /* OtpModel  .swift */; };
+		B0648A7E2859B1EE00CC169E /* DateSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A7D2859B1EE00CC169E /* DateSelectViewController.swift */; };
+		B0648A8B2859FB1A00CC169E /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0648A8A2859FB1A00CC169E /* ParentViewController.swift */; };
+		B08031F528630A0E0029A265 /* SuccessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08031F428630A0E0029A265 /* SuccessModel.swift */; };
+		B08031FA28630A1E0029A265 /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08031F928630A1E0029A265 /* Success.swift */; };
+		B08031FF28634A120029A265 /* TimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08031FE28634A120029A265 /* TimePickerViewController.swift */; };
+		B082838028942785007C2936 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082837F28942785007C2936 /* ExampleViewController.swift */; };
+		B0BEB426287BFD6B0081A470 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB425287BFD6B0081A470 /* UserProfile.swift */; };
+		B0BEB42B287BFDE60081A470 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB42A287BFDE60081A470 /* UserModel.swift */; };
+		B0BEB460287C28E30081A470 /* AvatarByUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB45F287C28E30081A470 /* AvatarByUser.swift */; };
+		B0BEB468287C32D60081A470 /* UserAvatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB467287C32D60081A470 /* UserAvatarModel.swift */; };
+		B0BEB477287EB8530081A470 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB474287EB8530081A470 /* SideMenuModel.swift */; };
+		B0BEB479287EB8530081A470 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB476287EB8530081A470 /* SideMenuViewController.swift */; };
+		B0BEB48B287EBAE20081A470 /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB489287EBAE20081A470 /* TabCollectionViewCell.swift */; };
+		B0BEB48C287EBAE20081A470 /* TabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BEB48A287EBAE20081A470 /* TabCollectionViewCell.xib */; };
+		B0BEB492287EBAF80081A470 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BEB490287EBAF80081A470 /* SideMenuCell.xib */; };
+		B0BEB493287EBAF80081A470 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB491287EBAF80081A470 /* SideMenuCell.swift */; };
+		B0BEB4A1287ED4B20081A470 /* Menu1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB49F287ED4B20081A470 /* Menu1TableViewCell.swift */; };
+		B0BEB4A2287ED4B20081A470 /* Menu1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BEB4A0287ED4B20081A470 /* Menu1TableViewCell.xib */; };
+		B0BEB4A8287F017E0081A470 /* Menu2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB4A6287F017E0081A470 /* Menu2TableViewCell.swift */; };
+		B0BEB4A9287F017E0081A470 /* Menu2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BEB4A7287F017E0081A470 /* Menu2TableViewCell.xib */; };
+		B0C984EA2838C137008C2A67 /* UserDetailSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C984E92838C137008C2A67 /* UserDetailSignViewController.swift */; };
+		B0C984F12838C412008C2A67 /* TextfieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C984EF2838C412008C2A67 /* TextfieldTableViewCell.swift */; };
+		B0C984F22838C412008C2A67 /* TextfieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C984F02838C412008C2A67 /* TextfieldTableViewCell.xib */; };
+		B0C9852E283BA315008C2A67 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9852C283BA315008C2A67 /* AvatarCollectionViewCell.swift */; };
+		B0C9852F283BA315008C2A67 /* AvatarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C9852D283BA315008C2A67 /* AvatarCollectionViewCell.xib */; };
+		B0C98534283BA649008C2A67 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C98533283BA649008C2A67 /* AvatarViewController.swift */; };
+		B0C98545283CBE7E008C2A67 /* HeadCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C98544283CBE7E008C2A67 /* HeadCollectionReusableView.swift */; };
+		B0C9855C283E2379008C2A67 /* ChooseDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9855B283E2379008C2A67 /* ChooseDayViewController.swift */; };
+		B0E7828E285CB9CE00F8F32B /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7828D285CB9CE00F8F32B /* ClockViewController.swift */; };
+		B0E78293285DA11100F8F32B /*  OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E78292285DA11100F8F32B /*  OTPViewController.swift */; };
+		B0E78298285DB0C500F8F32B /* OtpMatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E78297285DB0C500F8F32B /* OtpMatchModel.swift */; };
+		B0E7829D285DB11A00F8F32B /* OtpMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7829C285DB11A00F8F32B /* OtpMatch.swift */; };
+		B0E782B2285DCE7A00F8F32B /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782B1285DCE7A00F8F32B /* RegisterModel.swift */; };
+		B0E782BC285DCF0B00F8F32B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782BB285DCF0B00F8F32B /* Register.swift */; };
+		B0E782CC286076C200F8F32B /* AcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782CB286076C200F8F32B /* AcceptViewController.swift */; };
+		B0E782EC286085DD00F8F32B /* AllAvatars.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782EB286085DD00F8F32B /* AllAvatars.swift */; };
+		B0E782F1286086AB00F8F32B /* AllAvatarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782F0286086AB00F8F32B /* AllAvatarsModel.swift */; };
+		B0E782FE2861DC4300F8F32B /* SelectDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E782FD2861DC4300F8F32B /* SelectDayViewController.swift */; };
+		B0E7830B2861E0EE00F8F32B /* SelectAvatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7830A2861E0EE00F8F32B /* SelectAvatarModel.swift */; };
+		B0E783102861E10200F8F32B /* SelectAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7830F2861E10200F8F32B /* SelectAvatar.swift */; };
+		B0FEA0E82897F1C70057B268 /* KaroActivity2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FEA0E72897F1C70057B268 /* KaroActivity2ViewController.swift */; };
+		B0FEA0ED289808030057B268 /* StarsCollectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FEA0EC289808030057B268 /* StarsCollectedViewController.swift */; };
+		D5A64242F233DECEFA480C9F /* Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9EF6FC4A1A11BFC87ABA84 /* Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework */; };
+		F6EF5B2CDDA08E2DC1CF4839 /* Pods_Taron_ki_ToliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA15F220DEFB828E1509EE9 /* Pods_Taron_ki_ToliTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B05BA48F283500C400D08CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05BA470283500BE00D08CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05BA477283500BF00D08CCD;
+			remoteInfo = "Taron ki Toli";
+		};
+		B05BA49A283500C400D08CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B05BA470283500BE00D08CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05BA477283500BF00D08CCD;
+			remoteInfo = "Taron ki Toli";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E029683856FEF69B61EB8B /* Pods-Taron ki ToliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki ToliTests.release.xcconfig"; path = "Target Support Files/Pods-Taron ki ToliTests/Pods-Taron ki ToliTests.release.xcconfig"; sourceTree = "<group>"; };
+		121D519CA8DA2683EFF486D0 /* Pods-Taron ki Toli-Taron ki ToliUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki Toli-Taron ki ToliUITests.debug.xcconfig"; path = "Target Support Files/Pods-Taron ki Toli-Taron ki ToliUITests/Pods-Taron ki Toli-Taron ki ToliUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D742959BD75946DD7FE9464 /* Pods_Taron_ki_Toli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taron_ki_Toli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9EF6FC4A1A11BFC87ABA84 /* Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3429EA30B062F13575C04586 /* Pods-Taron ki Toli-Taron ki ToliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki Toli-Taron ki ToliUITests.release.xcconfig"; path = "Target Support Files/Pods-Taron ki Toli-Taron ki ToliUITests/Pods-Taron ki Toli-Taron ki ToliUITests.release.xcconfig"; sourceTree = "<group>"; };
+		342A06ACA9A71341AD654D8E /* Pods-Taron ki ToliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki ToliTests.debug.xcconfig"; path = "Target Support Files/Pods-Taron ki ToliTests/Pods-Taron ki ToliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		418831C9F5BC1298BE80952F /* Pods-Taron ki Toli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki Toli.release.xcconfig"; path = "Target Support Files/Pods-Taron ki Toli/Pods-Taron ki Toli.release.xcconfig"; sourceTree = "<group>"; };
+		6EA15F220DEFB828E1509EE9 /* Pods_Taron_ki_ToliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taron_ki_ToliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00797CD288E79990008B2EC /* Activity1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity1ViewController.swift; sourceTree = "<group>"; };
+		B00797D2288FCEC80008B2EC /* KyaKarnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyaKarnaViewController.swift; sourceTree = "<group>"; };
+		B00797D7288FD3100008B2EC /* Act12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act12ViewController.swift; sourceTree = "<group>"; };
+		B00797DC288FD3DA0008B2EC /* Act13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act13ViewController.swift; sourceTree = "<group>"; };
+		B00797ED288FED230008B2EC /* Karo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karo2ViewController.swift; sourceTree = "<group>"; };
+		B02E114F287562D100675638 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		B02E1154287562DD00675638 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B02E115928758DE900675638 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B02E115F28759CF300675638 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B02EB5372872F4EA0027764E /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		B02EB53D287430330027764E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B02EB545287430400027764E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B02EB54A2874304A0027764E /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		B02EB54F287430650027764E /* EnterUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterUsernameViewController.swift; sourceTree = "<group>"; };
+		B044A17A28858E1E00E3295D /* Karo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karo1ViewController.swift; sourceTree = "<group>"; };
+		B0452501288024560013E177 /* Menu3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu3TableViewCell.swift; sourceTree = "<group>"; };
+		B0452502288024560013E177 /* Menu3TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Menu3TableViewCell.xib; sourceTree = "<group>"; };
+		B0452509288025140013E177 /* Karo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Karo.storyboard; sourceTree = "<group>"; };
+		B045250F2881872D0013E177 /* KaroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaroCollectionViewCell.swift; sourceTree = "<group>"; };
+		B04525102881872D0013E177 /* KaroCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KaroCollectionViewCell.xib; sourceTree = "<group>"; };
+		B04525162881BE2C0013E177 /* KaroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaroViewController.swift; sourceTree = "<group>"; };
+		B04D128428646F57002499C0 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		B05B6C112886BEFC00FA4B88 /* SamajhBadhanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamajhBadhanaViewController.swift; sourceTree = "<group>"; };
+		B05B6C162886F66100FA4B88 /* GyanBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyanBoxViewController.swift; sourceTree = "<group>"; };
+		B05BA478283500BF00D08CCD /* Taron ki Toli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taron ki Toli.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05BA47B283500BF00D08CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B05BA47D283500BF00D08CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B05BA47F283500BF00D08CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B05BA482283500BF00D08CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B05BA484283500C300D08CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B05BA487283500C300D08CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B05BA489283500C300D08CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05BA48E283500C400D08CCD /* Taron ki ToliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taron ki ToliTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05BA492283500C400D08CCD /* Taron_ki_ToliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taron_ki_ToliTests.swift; sourceTree = "<group>"; };
+		B05BA494283500C400D08CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05BA499283500C400D08CCD /* Taron ki ToliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taron ki ToliUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05BA49D283500C400D08CCD /* Taron_ki_ToliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taron_ki_ToliUITests.swift; sourceTree = "<group>"; };
+		B05BA49F283500C400D08CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05BA4AF28351FB200D08CCD /* CommonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		B05BA4B028351FB200D08CCD /* Designabletextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designabletextfield.swift; sourceTree = "<group>"; };
+		B05BA4B128351FB200D08CCD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B05BA4B228351FB200D08CCD /* CommonTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTextfield.swift; sourceTree = "<group>"; };
+		B05BA4B328351FB200D08CCD /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		B05BA4B428351FB200D08CCD /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B05BA4B528351FB200D08CCD /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		B05BA4C028360F2600D08CCD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B05BA4E328361F8600D08CCD /* TopHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
+		B05BA4E428361F8600D08CCD /* TopHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopHeader.xib; sourceTree = "<group>"; };
+		B05BA50828362D4600D08CCD /* Mukta-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B05BA50928362D4600D08CCD /* Mukta-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Medium.ttf"; sourceTree = "<group>"; };
+		B05BA50A28362D4600D08CCD /* Mukta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Regular.ttf"; sourceTree = "<group>"; };
+		B05BA50B28362D4600D08CCD /* Mukta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Bold.ttf"; sourceTree = "<group>"; };
+		B05BA50C28362D4600D08CCD /* Mukta-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B05BA50D28362D4600D08CCD /* Mukta-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-SemiBold.ttf"; sourceTree = "<group>"; };
+		B05BA50E28362D4700D08CCD /* Mukta-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mukta-Light.ttf"; sourceTree = "<group>"; };
+		B05BA512283656C200D08CCD /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		B05BA51F28367A8400D08CCD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B0648A53285765D900CC169E /* StarGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGameViewController.swift; sourceTree = "<group>"; };
+		B0648A582857661700CC169E /* GeneralStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralStartViewController.swift; sourceTree = "<group>"; };
+		B0648A5D28577C1B00CC169E /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		B0648A63285880E500CC169E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B0648A6928588C3900CC169E /* Otp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otp.swift; sourceTree = "<group>"; };
+		B0648A6F28588DEA00CC169E /* OtpModel  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OtpModel  .swift"; sourceTree = "<group>"; };
+		B0648A7D2859B1EE00CC169E /* DateSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectViewController.swift; sourceTree = "<group>"; };
+		B0648A8A2859FB1A00CC169E /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		B08031F428630A0E0029A265 /* SuccessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessModel.swift; sourceTree = "<group>"; };
+		B08031F928630A1E0029A265 /* Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Success.swift; sourceTree = "<group>"; };
+		B08031FE28634A120029A265 /* TimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerViewController.swift; sourceTree = "<group>"; };
+		B082837F28942785007C2936 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		B0BEB425287BFD6B0081A470 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B0BEB42A287BFDE60081A470 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B0BEB45F287C28E30081A470 /* AvatarByUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarByUser.swift; sourceTree = "<group>"; };
+		B0BEB467287C32D60081A470 /* UserAvatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarModel.swift; sourceTree = "<group>"; };
+		B0BEB474287EB8530081A470 /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		B0BEB476287EB8530081A470 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		B0BEB489287EBAE20081A470 /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0BEB48A287EBAE20081A470 /* TabCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionViewCell.xib; sourceTree = "<group>"; };
+		B0BEB490287EBAF80081A470 /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		B0BEB491287EBAF80081A470 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		B0BEB49F287ED4B20081A470 /* Menu1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1TableViewCell.swift; sourceTree = "<group>"; };
+		B0BEB4A0287ED4B20081A470 /* Menu1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Menu1TableViewCell.xib; sourceTree = "<group>"; };
+		B0BEB4A6287F017E0081A470 /* Menu2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2TableViewCell.swift; sourceTree = "<group>"; };
+		B0BEB4A7287F017E0081A470 /* Menu2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Menu2TableViewCell.xib; sourceTree = "<group>"; };
+		B0C984E92838C137008C2A67 /* UserDetailSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailSignViewController.swift; sourceTree = "<group>"; };
+		B0C984EF2838C412008C2A67 /* TextfieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldTableViewCell.swift; sourceTree = "<group>"; };
+		B0C984F02838C412008C2A67 /* TextfieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextfieldTableViewCell.xib; sourceTree = "<group>"; };
+		B0C9852C283BA315008C2A67 /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0C9852D283BA315008C2A67 /* AvatarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarCollectionViewCell.xib; sourceTree = "<group>"; };
+		B0C98533283BA649008C2A67 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		B0C98544283CBE7E008C2A67 /* HeadCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadCollectionReusableView.swift; sourceTree = "<group>"; };
+		B0C9855B283E2379008C2A67 /* ChooseDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDayViewController.swift; sourceTree = "<group>"; };
+		B0E7828D285CB9CE00F8F32B /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		B0E78292285DA11100F8F32B /*  OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " OTPViewController.swift"; sourceTree = "<group>"; };
+		B0E78297285DB0C500F8F32B /* OtpMatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpMatchModel.swift; sourceTree = "<group>"; };
+		B0E7829C285DB11A00F8F32B /* OtpMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpMatch.swift; sourceTree = "<group>"; };
+		B0E782B1285DCE7A00F8F32B /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		B0E782BB285DCF0B00F8F32B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		B0E782CB286076C200F8F32B /* AcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptViewController.swift; sourceTree = "<group>"; };
+		B0E782EB286085DD00F8F32B /* AllAvatars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAvatars.swift; sourceTree = "<group>"; };
+		B0E782F0286086AB00F8F32B /* AllAvatarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAvatarsModel.swift; sourceTree = "<group>"; };
+		B0E782FD2861DC4300F8F32B /* SelectDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDayViewController.swift; sourceTree = "<group>"; };
+		B0E7830A2861E0EE00F8F32B /* SelectAvatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAvatarModel.swift; sourceTree = "<group>"; };
+		B0E7830F2861E10200F8F32B /* SelectAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAvatar.swift; sourceTree = "<group>"; };
+		B0FEA0E72897F1C70057B268 /* KaroActivity2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaroActivity2ViewController.swift; sourceTree = "<group>"; };
+		B0FEA0EC289808030057B268 /* StarsCollectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsCollectedViewController.swift; sourceTree = "<group>"; };
+		D8717261EED22209A04FEA61 /* Pods-Taron ki Toli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taron ki Toli.debug.xcconfig"; path = "Target Support Files/Pods-Taron ki Toli/Pods-Taron ki Toli.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B05BA475283500BF00D08CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56247A5D187EB19C715925B3 /* Pods_Taron_ki_Toli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA48B283500C400D08CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF5B2CDDA08E2DC1CF4839 /* Pods_Taron_ki_ToliTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA496283500C400D08CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A64242F233DECEFA480C9F /* Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C365E4230BC49A33492F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8717261EED22209A04FEA61 /* Pods-Taron ki Toli.debug.xcconfig */,
+				418831C9F5BC1298BE80952F /* Pods-Taron ki Toli.release.xcconfig */,
+				121D519CA8DA2683EFF486D0 /* Pods-Taron ki Toli-Taron ki ToliUITests.debug.xcconfig */,
+				3429EA30B062F13575C04586 /* Pods-Taron ki Toli-Taron ki ToliUITests.release.xcconfig */,
+				342A06ACA9A71341AD654D8E /* Pods-Taron ki ToliTests.debug.xcconfig */,
+				01E029683856FEF69B61EB8B /* Pods-Taron ki ToliTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B00797E1288FE40F0008B2EC /* Karo2 */ = {
+			isa = PBXGroup;
+			children = (
+				B00797ED288FED230008B2EC /* Karo2ViewController.swift */,
+				B0FEA0E72897F1C70057B268 /* KaroActivity2ViewController.swift */,
+			);
+			path = Karo2;
+			sourceTree = "<group>";
+		};
+		B02E115E28759CE200675638 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B02E115F28759CF300675638 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B02EB53C287430290027764E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B02EB53D287430330027764E /* LoginViewController.swift */,
+				B02EB545287430400027764E /* ForgotPasswordViewController.swift */,
+				B02EB54A2874304A0027764E /* UsernameViewController.swift */,
+				B02EB54F287430650027764E /* EnterUsernameViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B0452508288024F90013E177 /* Karo Activity */ = {
+			isa = PBXGroup;
+			children = (
+				B00797E1288FE40F0008B2EC /* Karo2 */,
+				B045250E288187050013E177 /* KaroCarousel */,
+				B0452509288025140013E177 /* Karo.storyboard */,
+				B082837F28942785007C2936 /* ExampleViewController.swift */,
+			);
+			path = "Karo Activity";
+			sourceTree = "<group>";
+		};
+		B045250E288187050013E177 /* KaroCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				B045250F2881872D0013E177 /* KaroCollectionViewCell.swift */,
+				B04525102881872D0013E177 /* KaroCollectionViewCell.xib */,
+				B04525162881BE2C0013E177 /* KaroViewController.swift */,
+				B044A17A28858E1E00E3295D /* Karo1ViewController.swift */,
+				B05B6C112886BEFC00FA4B88 /* SamajhBadhanaViewController.swift */,
+				B05B6C162886F66100FA4B88 /* GyanBoxViewController.swift */,
+				B00797CD288E79990008B2EC /* Activity1ViewController.swift */,
+				B00797D2288FCEC80008B2EC /* KyaKarnaViewController.swift */,
+				B00797D7288FD3100008B2EC /* Act12ViewController.swift */,
+				B00797DC288FD3DA0008B2EC /* Act13ViewController.swift */,
+				B0FEA0EC289808030057B268 /* StarsCollectedViewController.swift */,
+			);
+			path = KaroCarousel;
+			sourceTree = "<group>";
+		};
+		B05BA46F283500BE00D08CCD = {
+			isa = PBXGroup;
+			children = (
+				B05BA47A283500BF00D08CCD /* Taron ki Toli */,
+				B05BA491283500C400D08CCD /* Taron ki ToliTests */,
+				B05BA49C283500C400D08CCD /* Taron ki ToliUITests */,
+				B05BA479283500BF00D08CCD /* Products */,
+				26C365E4230BC49A33492F32 /* Pods */,
+				C785BC9FACA55B1DC571DBBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B05BA479283500BF00D08CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA478283500BF00D08CCD /* Taron ki Toli.app */,
+				B05BA48E283500C400D08CCD /* Taron ki ToliTests.xctest */,
+				B05BA499283500C400D08CCD /* Taron ki ToliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B05BA47A283500BF00D08CCD /* Taron ki Toli */ = {
+			isa = PBXGroup;
+			children = (
+				B0452508288024F90013E177 /* Karo Activity */,
+				B0BEB473287EB8360081A470 /* Sidemenu */,
+				B0648A7C2859B1C900CC169E /* DatePicker */,
+				B0648A62285880D200CC169E /* ApiManager */,
+				B05BA51A2836739300D08CCD /* OnBoarding */,
+				B0648A512857655100CC169E /* General */,
+				B0C984EE2838C37C008C2A67 /* TexField Xib */,
+				B05BA4EA28362C0000D08CCD /* CustomFonts */,
+				B05BA4E228361F2400D08CCD /* TopHeader */,
+				B05BA4AE28351F7500D08CCD /* CustomClasses */,
+				B05BA47B283500BF00D08CCD /* AppDelegate.swift */,
+				B05BA47D283500BF00D08CCD /* SceneDelegate.swift */,
+				B05BA47F283500BF00D08CCD /* ViewController.swift */,
+				B05BA481283500BF00D08CCD /* Main.storyboard */,
+				B05BA484283500C300D08CCD /* Assets.xcassets */,
+				B05BA486283500C300D08CCD /* LaunchScreen.storyboard */,
+				B05BA489283500C300D08CCD /* Info.plist */,
+				B05BA512283656C200D08CCD /* 123.jpg */,
+				B02E115928758DE900675638 /* Dashboard.storyboard */,
+			);
+			path = "Taron ki Toli";
+			sourceTree = "<group>";
+		};
+		B05BA491283500C400D08CCD /* Taron ki ToliTests */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA492283500C400D08CCD /* Taron_ki_ToliTests.swift */,
+				B05BA494283500C400D08CCD /* Info.plist */,
+			);
+			path = "Taron ki ToliTests";
+			sourceTree = "<group>";
+		};
+		B05BA49C283500C400D08CCD /* Taron ki ToliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA49D283500C400D08CCD /* Taron_ki_ToliUITests.swift */,
+				B05BA49F283500C400D08CCD /* Info.plist */,
+			);
+			path = "Taron ki ToliUITests";
+			sourceTree = "<group>";
+		};
+		B05BA4AE28351F7500D08CCD /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA4B428351FB200D08CCD /* Alert.swift */,
+				B05BA4AF28351FB200D08CCD /* CommonButton.swift */,
+				B05BA4B228351FB200D08CCD /* CommonTextfield.swift */,
+				B05BA4B528351FB200D08CCD /* DesignableButton.swift */,
+				B05BA4B028351FB200D08CCD /* Designabletextfield.swift */,
+				B05BA4B328351FB200D08CCD /* DesignableView.swift */,
+				B05BA4B128351FB200D08CCD /* Reachability.swift */,
+				B05BA4C028360F2600D08CCD /* Extensions.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		B05BA4E228361F2400D08CCD /* TopHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA4E328361F8600D08CCD /* TopHeader.swift */,
+				B05BA4E428361F8600D08CCD /* TopHeader.xib */,
+			);
+			path = TopHeader;
+			sourceTree = "<group>";
+		};
+		B05BA4EA28362C0000D08CCD /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA50B28362D4600D08CCD /* Mukta-Bold.ttf */,
+				B05BA50C28362D4600D08CCD /* Mukta-ExtraBold.ttf */,
+				B05BA50828362D4600D08CCD /* Mukta-ExtraLight.ttf */,
+				B05BA50E28362D4700D08CCD /* Mukta-Light.ttf */,
+				B05BA50928362D4600D08CCD /* Mukta-Medium.ttf */,
+				B05BA50A28362D4600D08CCD /* Mukta-Regular.ttf */,
+				B05BA50D28362D4600D08CCD /* Mukta-SemiBold.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		B05BA51A2836739300D08CCD /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				B02EB53C287430290027764E /* Login */,
+				B0648A6E28588DD400CC169E /* ViewModel */,
+				B0648A6828588C2800CC169E /* Model */,
+				B05BA51B2836739E00D08CCD /* SignUp */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		B05BA51B2836739E00D08CCD /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B05BA51F28367A8400D08CCD /* SignUpViewController.swift */,
+				B0C984E92838C137008C2A67 /* UserDetailSignViewController.swift */,
+				B0C9852C283BA315008C2A67 /* AvatarCollectionViewCell.swift */,
+				B0C9852D283BA315008C2A67 /* AvatarCollectionViewCell.xib */,
+				B0C98533283BA649008C2A67 /* AvatarViewController.swift */,
+				B0C98544283CBE7E008C2A67 /* HeadCollectionReusableView.swift */,
+				B0C9855B283E2379008C2A67 /* ChooseDayViewController.swift */,
+				B0648A8A2859FB1A00CC169E /* ParentViewController.swift */,
+				B0E78292285DA11100F8F32B /*  OTPViewController.swift */,
+				B0E782CB286076C200F8F32B /* AcceptViewController.swift */,
+				B0E782FD2861DC4300F8F32B /* SelectDayViewController.swift */,
+				B04D128428646F57002499C0 /* NotificationViewController.swift */,
+				B02EB5372872F4EA0027764E /* NewPasswordViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B0648A512857655100CC169E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEB421287BFC860081A470 /* Model */,
+				B0BEB420287BFC790081A470 /* ViewModel */,
+				B02E115E28759CE200675638 /* Dashboard */,
+				B0648A52285765B500CC169E /* General */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		B0648A52285765B500CC169E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B0648A53285765D900CC169E /* StarGameViewController.swift */,
+				B0648A582857661700CC169E /* GeneralStartViewController.swift */,
+				B0648A5D28577C1B00CC169E /* PointsViewController.swift */,
+				B0E7828D285CB9CE00F8F32B /* ClockViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		B0648A62285880D200CC169E /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0648A63285880E500CC169E /* ApiManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		B0648A6828588C2800CC169E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0648A6928588C3900CC169E /* Otp.swift */,
+				B0E7829C285DB11A00F8F32B /* OtpMatch.swift */,
+				B0E782BB285DCF0B00F8F32B /* Register.swift */,
+				B0E782EB286085DD00F8F32B /* AllAvatars.swift */,
+				B0E7830F2861E10200F8F32B /* SelectAvatar.swift */,
+				B08031F928630A1E0029A265 /* Success.swift */,
+				B02E1154287562DD00675638 /* Login.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0648A6E28588DD400CC169E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0648A6F28588DEA00CC169E /* OtpModel  .swift */,
+				B0E78297285DB0C500F8F32B /* OtpMatchModel.swift */,
+				B0E782B1285DCE7A00F8F32B /* RegisterModel.swift */,
+				B0E782F0286086AB00F8F32B /* AllAvatarsModel.swift */,
+				B0E7830A2861E0EE00F8F32B /* SelectAvatarModel.swift */,
+				B08031F428630A0E0029A265 /* SuccessModel.swift */,
+				B02E114F287562D100675638 /* LoginModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0648A7C2859B1C900CC169E /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B0648A7D2859B1EE00CC169E /* DateSelectViewController.swift */,
+				B08031FE28634A120029A265 /* TimePickerViewController.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		B0BEB420287BFC790081A470 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEB42A287BFDE60081A470 /* UserModel.swift */,
+				B0BEB467287C32D60081A470 /* UserAvatarModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0BEB421287BFC860081A470 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEB425287BFD6B0081A470 /* UserProfile.swift */,
+				B0BEB45F287C28E30081A470 /* AvatarByUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0BEB473287EB8360081A470 /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEB488287EBAC20081A470 /* SupportingFiles */,
+				B0BEB474287EB8530081A470 /* SideMenuModel.swift */,
+				B0BEB476287EB8530081A470 /* SideMenuViewController.swift */,
+			);
+			path = Sidemenu;
+			sourceTree = "<group>";
+		};
+		B0BEB488287EBAC20081A470 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEB489287EBAE20081A470 /* TabCollectionViewCell.swift */,
+				B0BEB491287EBAF80081A470 /* SideMenuCell.swift */,
+				B0BEB490287EBAF80081A470 /* SideMenuCell.xib */,
+				B0BEB48A287EBAE20081A470 /* TabCollectionViewCell.xib */,
+				B0BEB49F287ED4B20081A470 /* Menu1TableViewCell.swift */,
+				B0BEB4A0287ED4B20081A470 /* Menu1TableViewCell.xib */,
+				B0BEB4A6287F017E0081A470 /* Menu2TableViewCell.swift */,
+				B0BEB4A7287F017E0081A470 /* Menu2TableViewCell.xib */,
+				B0452501288024560013E177 /* Menu3TableViewCell.swift */,
+				B0452502288024560013E177 /* Menu3TableViewCell.xib */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B0C984EE2838C37C008C2A67 /* TexField Xib */ = {
+			isa = PBXGroup;
+			children = (
+				B0C984EF2838C412008C2A67 /* TextfieldTableViewCell.swift */,
+				B0C984F02838C412008C2A67 /* TextfieldTableViewCell.xib */,
+			);
+			path = "TexField Xib";
+			sourceTree = "<group>";
+		};
+		C785BC9FACA55B1DC571DBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D742959BD75946DD7FE9464 /* Pods_Taron_ki_Toli.framework */,
+				2B9EF6FC4A1A11BFC87ABA84 /* Pods_Taron_ki_Toli_Taron_ki_ToliUITests.framework */,
+				6EA15F220DEFB828E1509EE9 /* Pods_Taron_ki_ToliTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B05BA477283500BF00D08CCD /* Taron ki Toli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05BA4A2283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki Toli" */;
+			buildPhases = (
+				6AD8B596799A88EAB9792DB5 /* [CP] Check Pods Manifest.lock */,
+				B05BA474283500BF00D08CCD /* Sources */,
+				B05BA475283500BF00D08CCD /* Frameworks */,
+				B05BA476283500BF00D08CCD /* Resources */,
+				03EF790EE24267C71DD25649 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taron ki Toli";
+			productName = "Taron ki Toli";
+			productReference = B05BA478283500BF00D08CCD /* Taron ki Toli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B05BA48D283500C400D08CCD /* Taron ki ToliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05BA4A5283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki ToliTests" */;
+			buildPhases = (
+				9F0ABF302ED5F42B73A2D55F /* [CP] Check Pods Manifest.lock */,
+				B05BA48A283500C400D08CCD /* Sources */,
+				B05BA48B283500C400D08CCD /* Frameworks */,
+				B05BA48C283500C400D08CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05BA490283500C400D08CCD /* PBXTargetDependency */,
+			);
+			name = "Taron ki ToliTests";
+			productName = "Taron ki ToliTests";
+			productReference = B05BA48E283500C400D08CCD /* Taron ki ToliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B05BA498283500C400D08CCD /* Taron ki ToliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05BA4A8283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki ToliUITests" */;
+			buildPhases = (
+				72133A569F3465F37926F9E6 /* [CP] Check Pods Manifest.lock */,
+				B05BA495283500C400D08CCD /* Sources */,
+				B05BA496283500C400D08CCD /* Frameworks */,
+				B05BA497283500C400D08CCD /* Resources */,
+				4CD92E6CFF105ADD713C2CED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05BA49B283500C400D08CCD /* PBXTargetDependency */,
+			);
+			name = "Taron ki ToliUITests";
+			productName = "Taron ki ToliUITests";
+			productReference = B05BA499283500C400D08CCD /* Taron ki ToliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B05BA470283500BE00D08CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B05BA477283500BF00D08CCD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B05BA48D283500C400D08CCD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B05BA477283500BF00D08CCD;
+					};
+					B05BA498283500C400D08CCD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B05BA477283500BF00D08CCD;
+					};
+				};
+			};
+			buildConfigurationList = B05BA473283500BE00D08CCD /* Build configuration list for PBXProject "Taron ki Toli" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B05BA46F283500BE00D08CCD;
+			productRefGroup = B05BA479283500BF00D08CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B05BA477283500BF00D08CCD /* Taron ki Toli */,
+				B05BA48D283500C400D08CCD /* Taron ki ToliTests */,
+				B05BA498283500C400D08CCD /* Taron ki ToliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B05BA476283500BF00D08CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04525122881872D0013E177 /* KaroCollectionViewCell.xib in Resources */,
+				B0BEB48C287EBAE20081A470 /* TabCollectionViewCell.xib in Resources */,
+				B0BEB4A9287F017E0081A470 /* Menu2TableViewCell.xib in Resources */,
+				B0BEB492287EBAF80081A470 /* SideMenuCell.xib in Resources */,
+				B01D4BEE286F0FC700C539B0 /* Mukta-Bold.ttf in Resources */,
+				B01D4BEF286F0FC700C539B0 /* Mukta-Medium.ttf in Resources */,
+				B01D4BF0286F0FC700C539B0 /* Mukta-Regular.ttf in Resources */,
+				B01D4BF1286F0FC700C539B0 /* Mukta-SemiBold.ttf in Resources */,
+				B045250A288025140013E177 /* Karo.storyboard in Resources */,
+				B05BA488283500C300D08CCD /* LaunchScreen.storyboard in Resources */,
+				B0452504288024560013E177 /* Menu3TableViewCell.xib in Resources */,
+				B0C984F22838C412008C2A67 /* TextfieldTableViewCell.xib in Resources */,
+				B05BA513283656C200D08CCD /* 123.jpg in Resources */,
+				B0BEB4A2287ED4B20081A470 /* Menu1TableViewCell.xib in Resources */,
+				B02E115A28758DE900675638 /* Dashboard.storyboard in Resources */,
+				B05BA485283500C300D08CCD /* Assets.xcassets in Resources */,
+				B0C9852F283BA315008C2A67 /* AvatarCollectionViewCell.xib in Resources */,
+				B05BA4E628361F8600D08CCD /* TopHeader.xib in Resources */,
+				B05BA483283500BF00D08CCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA48C283500C400D08CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA497283500C400D08CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EF790EE24267C71DD25649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli/Pods-Taron ki Toli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli/Pods-Taron ki Toli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli/Pods-Taron ki Toli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD92E6CFF105ADD713C2CED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli-Taron ki ToliUITests/Pods-Taron ki Toli-Taron ki ToliUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli-Taron ki ToliUITests/Pods-Taron ki Toli-Taron ki ToliUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taron ki Toli-Taron ki ToliUITests/Pods-Taron ki Toli-Taron ki ToliUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD8B596799A88EAB9792DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taron ki Toli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72133A569F3465F37926F9E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taron ki Toli-Taron ki ToliUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0ABF302ED5F42B73A2D55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taron ki ToliTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B05BA474283500BF00D08CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C98545283CBE7E008C2A67 /* HeadCollectionReusableView.swift in Sources */,
+				B08031FF28634A120029A265 /* TimePickerViewController.swift in Sources */,
+				B0BEB4A8287F017E0081A470 /* Menu2TableViewCell.swift in Sources */,
+				B0648A592857661700CC169E /* GeneralStartViewController.swift in Sources */,
+				B0C984F12838C412008C2A67 /* TextfieldTableViewCell.swift in Sources */,
+				B0E78298285DB0C500F8F32B /* OtpMatchModel.swift in Sources */,
+				B04D128528646F57002499C0 /* NotificationViewController.swift in Sources */,
+				B00797DD288FD3DA0008B2EC /* Act13ViewController.swift in Sources */,
+				B0E782FE2861DC4300F8F32B /* SelectDayViewController.swift in Sources */,
+				B05B6C122886BEFC00FA4B88 /* SamajhBadhanaViewController.swift in Sources */,
+				B0E782B2285DCE7A00F8F32B /* RegisterModel.swift in Sources */,
+				B0FEA0E82897F1C70057B268 /* KaroActivity2ViewController.swift in Sources */,
+				B044A17B28858E1F00E3295D /* Karo1ViewController.swift in Sources */,
+				B0BEB493287EBAF80081A470 /* SideMenuCell.swift in Sources */,
+				B082838028942785007C2936 /* ExampleViewController.swift in Sources */,
+				B0E7828E285CB9CE00F8F32B /* ClockViewController.swift in Sources */,
+				B05BA4BB28351FB200D08CCD /* Alert.swift in Sources */,
+				B05BA4BA28351FB200D08CCD /* DesignableView.swift in Sources */,
+				B02EB550287430650027764E /* EnterUsernameViewController.swift in Sources */,
+				B00797D3288FCEC80008B2EC /* KyaKarnaViewController.swift in Sources */,
+				B0BEB426287BFD6B0081A470 /* UserProfile.swift in Sources */,
+				B0648A5E28577C1B00CC169E /* PointsViewController.swift in Sources */,
+				B0E7830B2861E0EE00F8F32B /* SelectAvatarModel.swift in Sources */,
+				B0648A7E2859B1EE00CC169E /* DateSelectViewController.swift in Sources */,
+				B05BA4B728351FB200D08CCD /* Designabletextfield.swift in Sources */,
+				B0BEB468287C32D60081A470 /* UserAvatarModel.swift in Sources */,
+				B02E116028759CF300675638 /* DashboardViewController.swift in Sources */,
+				B00797D8288FD3100008B2EC /* Act12ViewController.swift in Sources */,
+				B0E782EC286085DD00F8F32B /* AllAvatars.swift in Sources */,
+				B05BA4BC28351FB200D08CCD /* DesignableButton.swift in Sources */,
+				B0FEA0ED289808030057B268 /* StarsCollectedViewController.swift in Sources */,
+				B08031F528630A0E0029A265 /* SuccessModel.swift in Sources */,
+				B02EB53E287430340027764E /* LoginViewController.swift in Sources */,
+				B0E782BC285DCF0B00F8F32B /* Register.swift in Sources */,
+				B02E1155287562DD00675638 /* Login.swift in Sources */,
+				B0E7829D285DB11A00F8F32B /* OtpMatch.swift in Sources */,
+				B05BA480283500BF00D08CCD /* ViewController.swift in Sources */,
+				B0E78293285DA11100F8F32B /*  OTPViewController.swift in Sources */,
+				B05BA4B928351FB200D08CCD /* CommonTextfield.swift in Sources */,
+				B02EB546287430400027764E /* ForgotPasswordViewController.swift in Sources */,
+				B0452503288024560013E177 /* Menu3TableViewCell.swift in Sources */,
+				B0E783102861E10200F8F32B /* SelectAvatar.swift in Sources */,
+				B0C9855C283E2379008C2A67 /* ChooseDayViewController.swift in Sources */,
+				B05BA4E528361F8600D08CCD /* TopHeader.swift in Sources */,
+				B02E1150287562D100675638 /* LoginModel.swift in Sources */,
+				B0E782F1286086AB00F8F32B /* AllAvatarsModel.swift in Sources */,
+				B0C984EA2838C137008C2A67 /* UserDetailSignViewController.swift in Sources */,
+				B08031FA28630A1E0029A265 /* Success.swift in Sources */,
+				B05BA4B828351FB200D08CCD /* Reachability.swift in Sources */,
+				B05BA47C283500BF00D08CCD /* AppDelegate.swift in Sources */,
+				B05B6C172886F66100FA4B88 /* GyanBoxViewController.swift in Sources */,
+				B0BEB4A1287ED4B20081A470 /* Menu1TableViewCell.swift in Sources */,
+				B05BA4B628351FB200D08CCD /* CommonButton.swift in Sources */,
+				B0648A54285765D900CC169E /* StarGameViewController.swift in Sources */,
+				B0C98534283BA649008C2A67 /* AvatarViewController.swift in Sources */,
+				B05BA4C128360F2600D08CCD /* Extensions.swift in Sources */,
+				B05BA52028367A8400D08CCD /* SignUpViewController.swift in Sources */,
+				B0BEB460287C28E30081A470 /* AvatarByUser.swift in Sources */,
+				B0648A64285880E500CC169E /* ApiManager.swift in Sources */,
+				B05BA47E283500BF00D08CCD /* SceneDelegate.swift in Sources */,
+				B02EB5382872F4EA0027764E /* NewPasswordViewController.swift in Sources */,
+				B0C9852E283BA315008C2A67 /* AvatarCollectionViewCell.swift in Sources */,
+				B0BEB477287EB8530081A470 /* SideMenuModel.swift in Sources */,
+				B00797CE288E79990008B2EC /* Activity1ViewController.swift in Sources */,
+				B0BEB48B287EBAE20081A470 /* TabCollectionViewCell.swift in Sources */,
+				B0648A6A28588C3900CC169E /* Otp.swift in Sources */,
+				B0648A7028588DEA00CC169E /* OtpModel  .swift in Sources */,
+				B02EB54B2874304A0027764E /* UsernameViewController.swift in Sources */,
+				B0E782CC286076C200F8F32B /* AcceptViewController.swift in Sources */,
+				B00797EE288FED230008B2EC /* Karo2ViewController.swift in Sources */,
+				B04525112881872D0013E177 /* KaroCollectionViewCell.swift in Sources */,
+				B0648A8B2859FB1A00CC169E /* ParentViewController.swift in Sources */,
+				B0BEB479287EB8530081A470 /* SideMenuViewController.swift in Sources */,
+				B0BEB42B287BFDE60081A470 /* UserModel.swift in Sources */,
+				B04525172881BE2C0013E177 /* KaroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA48A283500C400D08CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05BA493283500C400D08CCD /* Taron_ki_ToliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05BA495283500C400D08CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05BA49E283500C400D08CCD /* Taron_ki_ToliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B05BA490283500C400D08CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05BA477283500BF00D08CCD /* Taron ki Toli */;
+			targetProxy = B05BA48F283500C400D08CCD /* PBXContainerItemProxy */;
+		};
+		B05BA49B283500C400D08CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B05BA477283500BF00D08CCD /* Taron ki Toli */;
+			targetProxy = B05BA49A283500C400D08CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B05BA481283500BF00D08CCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05BA482283500BF00D08CCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B05BA486283500C300D08CCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B05BA487283500C300D08CCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B05BA4A0283500C400D08CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B05BA4A1283500C400D08CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B05BA4A3283500C400D08CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8717261EED22209A04FEA61 /* Pods-Taron ki Toli.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki Toli/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tkt.inbreakthrough.saif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B05BA4A4283500C400D08CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418831C9F5BC1298BE80952F /* Pods-Taron ki Toli.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki Toli/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tkt.inbreakthrough.saif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B05BA4A6283500C400D08CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342A06ACA9A71341AD654D8E /* Pods-Taron ki ToliTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki ToliTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Taron-ki-ToliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taron ki Toli.app/Taron ki Toli";
+			};
+			name = Debug;
+		};
+		B05BA4A7283500C400D08CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E029683856FEF69B61EB8B /* Pods-Taron ki ToliTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki ToliTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Taron-ki-ToliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taron ki Toli.app/Taron ki Toli";
+			};
+			name = Release;
+		};
+		B05BA4A9283500C400D08CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121D519CA8DA2683EFF486D0 /* Pods-Taron ki Toli-Taron ki ToliUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki ToliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Taron-ki-ToliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taron ki Toli";
+			};
+			name = Debug;
+		};
+		B05BA4AA283500C400D08CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3429EA30B062F13575C04586 /* Pods-Taron ki Toli-Taron ki ToliUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = "Taron ki ToliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Saif.Taron-ki-ToliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taron ki Toli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B05BA473283500BE00D08CCD /* Build configuration list for PBXProject "Taron ki Toli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05BA4A0283500C400D08CCD /* Debug */,
+				B05BA4A1283500C400D08CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05BA4A2283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki Toli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05BA4A3283500C400D08CCD /* Debug */,
+				B05BA4A4283500C400D08CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05BA4A5283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki ToliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05BA4A6283500C400D08CCD /* Debug */,
+				B05BA4A7283500C400D08CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05BA4A8283500C400D08CCD /* Build configuration list for PBXNativeTarget "Taron ki ToliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05BA4A9283500C400D08CCD /* Debug */,
+				B05BA4AA283500C400D08CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B05BA470283500BE00D08CCD /* Project object */;
+}

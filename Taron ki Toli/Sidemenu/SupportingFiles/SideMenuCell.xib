@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mukta-SemiBold.ttf">
+            <string>Mukta-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SideMenuCell" customModule="Taron_ki_Toli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zV4-RC-3jU">
+                        <rect key="frame" x="39" y="7" width="266" height="30"/>
+                        <fontDescription key="fontDescription" name="Mukta-SemiBold" family="Mukta" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qg9-uQ-Yeo">
+                        <rect key="frame" x="21" y="43" width="180" height="1"/>
+                        <color key="backgroundColor" red="1" green="0.9882352941176471" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="fpQ-Pn-5Wi"/>
+                            <constraint firstAttribute="height" constant="1" id="meV-1B-n67"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qg9-uQ-Yeo" secondAttribute="bottom" id="6Bi-2a-9pz"/>
+                    <constraint firstAttribute="trailing" secondItem="zV4-RC-3jU" secondAttribute="trailing" constant="15" id="GiZ-KW-gKV"/>
+                    <constraint firstItem="Qg9-uQ-Yeo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="JJa-rt-Lp0"/>
+                    <constraint firstItem="zV4-RC-3jU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Wi3-bA-J8x"/>
+                    <constraint firstItem="zV4-RC-3jU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="39" id="d2U-mv-xnA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="titleLabel" destination="zV4-RC-3jU" id="ETN-7z-OB3"/>
+            </connections>
+            <point key="canvasLocation" x="-123.18840579710145" y="146.65178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

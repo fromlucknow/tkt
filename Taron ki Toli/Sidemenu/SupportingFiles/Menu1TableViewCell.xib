@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mukta-SemiBold.ttf">
+            <string>Mukta-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="Menu1TableViewCell" customModule="Taron_ki_Toli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R49-9G-lkR">
+                        <rect key="frame" x="39" y="7" width="34.5" height="30"/>
+                        <fontDescription key="fontDescription" name="Mukta-SemiBold" family="Mukta" pointSize="18"/>
+                        <color key="textColor" red="1" green="0.98823529409999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" title="on" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="bSW-Pd-Ffo">
+                        <rect key="frame" x="262" y="6.5" width="49" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="emj-KX-TKg"/>
+                            <constraint firstAttribute="width" constant="47" id="goD-0X-Kkb"/>
+                        </constraints>
+                        <color key="onTintColor" red="1" green="0.98823529409999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="thumbTintColor" red="0.015686274510000001" green="0.65490196079999996" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L19-ge-hJ8">
+                        <rect key="frame" x="37" y="42" width="180" height="1"/>
+                        <color key="backgroundColor" red="1" green="0.98823529409999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="tH7-TD-hja"/>
+                            <constraint firstAttribute="width" constant="180" id="uj4-ic-wbf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.76470588240000004" green="0.2784313725" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="L19-ge-hJ8" secondAttribute="bottom" constant="1" id="7Z8-YF-kTO"/>
+                    <constraint firstItem="bSW-Pd-Ffo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Djt-8K-Wbi"/>
+                    <constraint firstItem="L19-ge-hJ8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="37" id="MIE-dH-Svo"/>
+                    <constraint firstItem="R49-9G-lkR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="39" id="W1t-dg-sRS"/>
+                    <constraint firstItem="R49-9G-lkR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZHp-kK-y7a"/>
+                    <constraint firstAttribute="trailing" secondItem="bSW-Pd-Ffo" secondAttribute="trailing" constant="11" id="wAm-dA-53Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="switchButton" destination="bSW-Pd-Ffo" id="edW-kN-B3M"/>
+                <outlet property="titleLabel" destination="R49-9G-lkR" id="N9l-yB-Md8"/>
+            </connections>
+            <point key="canvasLocation" x="141" y="72"/>
+        </tableViewCell>
+    </objects>
+</document>

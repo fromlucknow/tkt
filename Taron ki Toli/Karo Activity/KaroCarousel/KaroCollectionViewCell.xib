@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mukta-Regular.ttf">
+            <string>Mukta-Regular</string>
+        </array>
+        <array key="Mukta-SemiBold.ttf">
+            <string>Mukta-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="KaroCollectionViewCell" customModule="Taron_ki_Toli" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="304"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="304"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KqT-28-BrV">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="304"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rect2" translatesAutoresizingMaskIntoConstraints="NO" id="qaK-PR-KxK">
+                                <rect key="frame" x="0.0" y="0.0" width="317" height="304"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="karo5" translatesAutoresizingMaskIntoConstraints="NO" id="khE-DD-Stm">
+                                <rect key="frame" x="32" y="82" width="253" height="109"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDt-4R-87L">
+                                <rect key="frame" x="106" y="198" width="105" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGl-t4-dx2">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="66"/>
+                                        <fontDescription key="fontDescription" name="Mukta-Regular" family="Mukta" pointSize="20"/>
+                                        <state key="normal" backgroundImage="box1"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="आगे बढ़ें " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZM-HO-cAo">
+                                        <rect key="frame" x="21.5" y="16.5" width="62" height="33"/>
+                                        <fontDescription key="fontDescription" name="Mukta-SemiBold" family="Mukta" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="893-9K-AaS"/>
+                                    <constraint firstItem="NGl-t4-dx2" firstAttribute="top" secondItem="gDt-4R-87L" secondAttribute="top" id="9r3-9o-M5H"/>
+                                    <constraint firstItem="NGl-t4-dx2" firstAttribute="leading" secondItem="gDt-4R-87L" secondAttribute="leading" id="M6p-2f-0aK"/>
+                                    <constraint firstAttribute="trailing" secondItem="NGl-t4-dx2" secondAttribute="trailing" id="alO-Z6-F5v"/>
+                                    <constraint firstItem="RZM-HO-cAo" firstAttribute="centerY" secondItem="gDt-4R-87L" secondAttribute="centerY" id="kQt-cQ-O2A"/>
+                                    <constraint firstAttribute="height" constant="66" id="mTE-mT-fQW"/>
+                                    <constraint firstAttribute="bottom" secondItem="NGl-t4-dx2" secondAttribute="bottom" id="tyO-Vx-JLW"/>
+                                    <constraint firstItem="RZM-HO-cAo" firstAttribute="centerX" secondItem="gDt-4R-87L" secondAttribute="centerX" id="vWx-ex-3It"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="बराबरी विषय पर समझ बढ़ाना" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1C0-hc-ayZ">
+                                <rect key="frame" x="40" y="38" width="237" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="752" constant="33" id="Lep-q9-avH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Mukta-SemiBold" family="Mukta" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gDt-4R-87L" firstAttribute="top" secondItem="khE-DD-Stm" secondAttribute="bottom" constant="7" id="0wh-Mc-c1M"/>
+                            <constraint firstAttribute="trailing" secondItem="qaK-PR-KxK" secondAttribute="trailing" id="Bae-UX-GUL"/>
+                            <constraint firstItem="khE-DD-Stm" firstAttribute="leading" secondItem="KqT-28-BrV" secondAttribute="leading" constant="32" id="CQh-4l-YRA"/>
+                            <constraint firstItem="gDt-4R-87L" firstAttribute="centerX" secondItem="KqT-28-BrV" secondAttribute="centerX" id="M0B-fc-hX2"/>
+                            <constraint firstAttribute="bottom" secondItem="qaK-PR-KxK" secondAttribute="bottom" id="Ouz-NC-FSr"/>
+                            <constraint firstItem="1C0-hc-ayZ" firstAttribute="top" secondItem="KqT-28-BrV" secondAttribute="top" constant="38" id="TTj-NO-cng"/>
+                            <constraint firstItem="khE-DD-Stm" firstAttribute="top" secondItem="1C0-hc-ayZ" secondAttribute="bottom" constant="7" id="UQb-55-oek"/>
+                            <constraint firstAttribute="trailing" secondItem="1C0-hc-ayZ" secondAttribute="trailing" constant="40" id="d5G-Vl-ixR"/>
+                            <constraint firstItem="1C0-hc-ayZ" firstAttribute="leading" secondItem="KqT-28-BrV" secondAttribute="leading" constant="40" id="dIy-Zt-3Se"/>
+                            <constraint firstAttribute="trailing" secondItem="khE-DD-Stm" secondAttribute="trailing" constant="32" id="dkr-zV-umD"/>
+                            <constraint firstAttribute="bottom" secondItem="gDt-4R-87L" secondAttribute="bottom" constant="40" id="tYk-eg-6d6"/>
+                            <constraint firstItem="qaK-PR-KxK" firstAttribute="leading" secondItem="KqT-28-BrV" secondAttribute="leading" id="vTu-RR-HDn"/>
+                            <constraint firstItem="qaK-PR-KxK" firstAttribute="top" secondItem="KqT-28-BrV" secondAttribute="top" id="zaL-4M-Owq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="KqT-28-BrV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2g0-j6-qbm"/>
+                <constraint firstAttribute="trailing" secondItem="KqT-28-BrV" secondAttribute="trailing" id="TAX-L6-A2t"/>
+                <constraint firstItem="KqT-28-BrV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rDg-gD-wNF"/>
+                <constraint firstAttribute="bottom" secondItem="KqT-28-BrV" secondAttribute="bottom" id="zoA-2B-DJ0"/>
+            </constraints>
+            <size key="customSize" width="317" height="304"/>
+            <connections>
+                <outlet property="bannerImage" destination="khE-DD-Stm" id="hdZ-S6-rHh"/>
+                <outlet property="lbl" destination="1C0-hc-ayZ" id="yni-Xa-CKh"/>
+                <outlet property="nextBut" destination="NGl-t4-dx2" id="fW7-UG-Djk"/>
+            </connections>
+            <point key="canvasLocation" x="303.62318840579712" y="249.10714285714283"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="box1" width="145.33332824707031" height="94.666664123535156"/>
+        <image name="karo5" width="952" height="1252"/>
+        <image name="rect2" width="370.33334350585938" height="546.66668701171875"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
